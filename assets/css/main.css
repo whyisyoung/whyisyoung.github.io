@@ -1099,6 +1099,15 @@
 			z-index: 1;
 		}
 
+		/* Portrait phones and smaller */
+		@media (max-width: 480px) {
+
+		    #bg:after {
+		        background-image: none;
+		    }
+
+		}
+
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
