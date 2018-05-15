@@ -973,6 +973,16 @@
 		white-space: nowrap;
 	}
 
+	.button.pdf {
+		height: 1.5rem;
+		line-height: 1.5rem;
+		font-size: 0.8rem;
+		font-weight: 450;
+		padding: 0 0.45rem 0 0.5rem;
+		/*background-color: #069bff;*/
+		/*box-shadow: inset 0 0 0 1px #069bff;*/
+	}
+
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
@@ -1487,7 +1497,7 @@
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 50rem;
+			width: 58rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
