@@ -393,7 +393,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				<!-- Footer -->
 					<footer id="footer">
 						<p class="copyright">&copy; Limin Yang. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. Image: <a href="https://unsplash.com/" target="_blank">Unsplash</a>.</p>
-						<p class="copyright">Last updated: 05/14/2018</p>
+						<p class="copyright">
+							Last updated:
+							<script>
+								t = new Date(document.lastModified).toLocaleDateString()
+								document.write(t);
+							</script>
+						</p>
 					</footer>
 
 			</div>
