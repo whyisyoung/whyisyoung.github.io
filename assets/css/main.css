@@ -1343,6 +1343,11 @@
 		#header nav.use-middle ul li.is-middle {
 			border-left: 0;
 		}
+               
+		#header nav.use-middle ul li.is-middle #publication {
+			padding-left: 1em;
+			padding-right: 0.8em;
+		} 
 
 		body.is-article-visible #header {
 			-moz-transform: scale(0.95);
