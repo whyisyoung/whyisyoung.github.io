@@ -1,6 +1,4 @@
 # whyisyoung.github.io
-Homepage
+Source code for my homepage: https://whyisyoung.github.io. 
 
 
-# TODO
-add retina background image

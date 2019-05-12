@@ -1,419 +1,397 @@
-<!DOCTYPE HTML>
 <!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+ * @Author: Jon Barron
+ * @Date: 2019-05-11 22:15:22
+ * @LastEditors: whyisyoung
+ * @LastEditTime: 2019-05-12 12:26:02
+ -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-	<head>
-		<title>Limin Yang | CS@VT</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+  <meta name=viewport content="width=800">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-diamond"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Limin Yang</h1>
-								<p>I'm a Ph.D. student in the Department of Computer Science at Virginia Tech since 08/2018.
-								   My advisor is Dr. <a href="http://people.cs.vt.edu/gangwang/" target="_blank">Gang Wang</a>. <br />
-								   I'm particularly interested in the application of Data Mining, Machine Learning, and Security.
-								   See my <a href="./resume_LiminYang.pdf"  target="_blank">CV</a> for more information.</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#about">About</a></li>
-								<li><a href="#internship">Internships</a></li>
-								<li><a href="#publication">Publications</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!-- <li><a href="#award">Award</a></li> -->
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+    a {
+      color: #1772d0;
+      /* color: #07889b; */
+      text-decoration: none;
+    }
 
-				<!-- Main -->
-					<div id="main">
+    a:focus,
+    a:hover {
+      color: #e37222; /* #f09228; */
+      text-decoration: none;
+    }
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About me</h2>
-								<!-- <span class="image main"><img src="images/pic01.jpg" alt="" /></span> -->
-								<p> I'm a Ph.D. student in the Department of Computer Science at Virginia Tech since 08/2018.
-								    My advisor is Dr. <a href="http://people.cs.vt.edu/gangwang/" target="_blank">Gang Wang</a>.
-								    I'm particularly interested in the application of Data Mining, Machine Learning, and Security. </p>
-								<p> I received a B.Eng in Computer Science from East China Normal University (ECNU) in 2015.
-									From May 2013 to June 2015, I was a member of ECNU Innovative Talents Class Committee.
-									During my master's study at ECNU, I am a recipient of ECNU Graduate Student Overseas Research Scholarship.
-									Before joining Virginia Tech, I also spent a couple of enjoyable months under the supervision of
-									Dr. <a href="http://xinyuxing.org/" target="_blank">Xinyu Xing</a> and Dr. <a href="http://people.cs.vt.edu/gangwang/" target="_blank">Gang Wang</a>
-									at <a href="http://www.psu.edu/" target="_blank">Penn State</a> in 2017. </p>
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px
+    }
 
-							</article>
+    strong {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+    }
 
-						<!-- Experience -->
-							<article id="internship">
-								<h2 class="major">Internship</h2>
-								<ul class="alt">
-									<li>Search and Rank Intern @<a href="https://www.xueba100.com/" target="_blank">Wenba</a>, 09/2016 – 10/2016</li>
-										<ul>
-											<li>Located possible reasons of response bottleneck, read the whole source code related to searching of XuebaJun app (one of the top three apps in its area), and accomplished a comprehensive code report.
-											</li>
-										</ul>
+    heading {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 22px;
+      color: #e37222;
+    }
 
-									<li>Exploit Intern @ <a href="http://www.icst.pku.edu.cn/index.php?s=/Home/Index/index/lang/en.html" target="_blank">Peking University</a>, 07/2015 - 08/2015</li>
-										<ul>
-											<li>Supervised by Ph.D Candidate <a href="http://accepted.100871.net/" target="_blank">Yu Ding</a> and learned binary vulnerability discovery/exploit (Windows), Android security (APK unpacking and repackaging), Web security (XSS).
-											</li>
-										</ul>
+    papertitle {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+      /* font-weight: 700 */
+    }
 
-									<li>Quantitative Analyst Assistant Intern @<a href="https://www.unionpaysmart.com/index.php/en_index.html" target="_blank">UnionPay Smart</a>, 03/2015 – 06/2015</li>
-										<ul>
-											<li>Using Hadoop clusters to fetch luxury industry data from the transaction records of 2.7 billion credit cards (supported by China UnionPay), written with Python and Shell scripts.
-											</li>
-										</ul>
-								</ul>
-								<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+    name {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 32px;
+    }
 
-							</article>
+    .footer {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 13px;
+      opacity: 0.75;
+      color: #777;
+    }
 
-						<!-- Publication -->
-							<article id="publication">
-								<h2 class="major">Publications</h2>
-								<!-- <span class="image main"><img src="images/pic03.jpg" alt="" /></span> -->
-								<ul>
-									<li>
-										<a href="papers/VulReproduction_Security18.pdf" class="button pdf" target="_blank">PDF</a>  &nbsp;
-                                                                                <a href="https://vulnreproduction.github.io/" class="button pdf" target="_blank">Data</a> &nbsp;
-										<b>Understanding the Reproducibility of Crowd-reported Security Vulnerabilities</b> <br />
-										Dongliang Mu, Alejandro Cuevas, <b> Limin Yang</b>, Hang Hu, Xinyu Xing, Bing Mao, Gang Wang <br />
-										Proceedings of <i>The 27th USENIX Security Symposium</i> <i>(<b>USENIX Security</b>)</i> <br />
-										Baltimore, MD, August 2018.
-									</li>
-									<li>
-										<a href="papers/Vuldigger_Globecom17.pdf" class="button pdf" target="_blank">PDF</a>  &nbsp;
-										<b>VulDigger: A Just-in-Time and Cost-Aware Tool for Digging Vulnerability-Contributing Changes</b> <br />
-										<b> Limin Yang</b>, Xiangxue Li, Yu Yu <br />
-										Proceedings of <i>IEEE Global Communications Conference</i> <i>(<b>GLOBECOM</b>)</i> <br />
-										Singapore, December 2017.
-									</li>
-									<li>
-										<a href="papers/WeChat_PPNA_2017.pdf" class="button pdf" target="_blank">PDF</a>  &nbsp;
-										<b>Characterizing user behaviors in location-based find-and-flirt services: Anonymity and demographics</b> <br />
-										Minhui Xue, <b> Limin Yang</b>, Keith W. Ross, and Haifeng Qian <br />
-										<i>Peer-to-Peer Networking and Applications</i>, 2017.</li>
-								</ul>
-							</article>
+    .one {
+      width: 160px;
+      height: 160px;
+      position: relative;
+    }
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<!-- <form method="post" action="#">
-									<div class="field half first">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="special" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form> -->
-								<p>You can reach me via <a href="mailto:liminyang@vt.edu">liminyang@vt.edu</a> or any of the following platforms: </p>
-								<ul class="icons">
-									<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
-									<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
-									<li><a href="https://www.linkedin.com/in/liminyang/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://scholar.google.com/citations?user=Y74Wp-YAAAAJ" class="icon fa-google" target="_blank"><span class="label">Google Scholar</span></a></li>
-									<li><a href="https://github.com/whyisyoung" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>
+    .two {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
+    .fade {
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
 
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
+    span.highlight {
+      background-color: #ffffd0;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="images/limin-icon.jpg">
+  <title>Limin Yang</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+<body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <!-- Intro Begin -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
+          <tr>
+            <td width="67%" valign="middle">
+              <p align="center">
+                <name>Limin Yang &nbsp 杨利民</name>
+              </p>
+              <p>I am a PhD student of Computer Science at <a href="https://cs.vt.edu/">Virginia Tech</a> since 08/2018, where I work on the application of Security and Machine Learning. My advisor is Dr. <a href="https://people.cs.vt.edu/gangwang/">Gang Wang</a>.
+              </p>
+              <p align=center>
+                <a href="mailto:liminyang@vt.edu">Email</a> &nbsp/&nbsp
+                <a href="data/LiminYang-CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://github.com/whyisyoung"> GitHub </a> &nbsp/&nbsp
+                <!-- <a href="data/JonBarron-bio.txt">Biography</a> &nbsp/&nbsp -->
+                <a href="https://scholar.google.com/citations?user=Y74Wp-YAAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/liminyang/"> LinkedIn </a>
+              </p>
+            </td>
+            <td width="33%">
+              <img src="images/liminyang.jpg" height="280px">
+              <p class="footer">photo credit: <a href="https://www.haileyliu.us/" target="_blank"> Hailey Liu</a>  </p>
+            </td>
+          </tr>
+        </table>
+        <!-- Intro End -->
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
+        <!-- Publications Begin -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
+          <tr>
+            <td>
+              <heading>Publications</heading>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellpadding="15">
+          <tr>
+            <td width="100%" valign="center">
+              <p>
+                <papertitle>Understanding the Reproducibility of Crowd-reported Security Vulnerabilities</papertitle>
+                <br>
+                <!-- <a href="https://mudongliang.github.io/about/"">Dongliang Mu</a>, -->
+                Dongliang Mu,
+                <!-- <a href="https://www.linkedin.com/in/aledancuevas/">Alejandro Cuevas</a>, -->
+                Alejandro Cuevas,
+                <strong>Limin Yang</strong>,
+                <!-- <a href="https://people.cs.vt.edu/hanghu/"">Hang Hu</a>, -->
+                Hang Hu,
+                <!-- <a href="http://xinyuxing.org/">Xinyu Xing</a>, -->
+                Xinyu Xing,
+                Bing Mao,
+                <!-- <a href="https://people.cs.vt.edu/gangwang/">Gang Wang</a> -->
+                Gang Wang
+                <br>
+                <strong>USENIX Security</strong>, 2018
+                <br>
+                <a href="data/USENIX18_VulReproduction.pdf">PDF</a> /
+                <a href="https://vulnreproduction.github.io/">Data</a>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="100%" valign="center">
+              <p>
+                <papertitle>VulDigger: A Just-in-Time and Cost-Aware Tool for Digging Vulnerability-Contributing Changes</papertitle>
+                <br>
+                <strong>Limin Yang</strong>,
+                Xiangxue Li, Yu Yu
+                  <br>
+                  <em>GLOBECOM</em>, 2017
+                  <br>
+                  <a href="data/Globecom17_Vuldigger.pdf">PDF</a>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="100%" valign="center">
+              <p>
+                <papertitle>Characterizing user behaviors in location-based find-and-flirt services: Anonymity and demographics</papertitle>
+                <br>
+                <!-- <a href="http://www.cs.ecnu.edu.cn/xueminhui/">Minhui Xue</a>, -->
+                Minhui Xue,
+                <strong>Limin Yang</strong>,
+                <!-- <a href="https://www.nyu.edu/projects/keithwross/"> Keith W. Ross</a>, -->
+                Keith W. Ross,
+                Haifeng Qian
+                <br>
+                <em>PPNA Springer</em>, 2017
+                <br>
+                <a href="data/PPNA17_WeChat.pdf">PDF</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <!-- Publications End -->
 
-								<section>
-									<h3 class="major">Lists</h3>
+        <!-- Internship Begin -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
+          <tr>
+            <td>
+              <heading>Internship</heading>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellpadding="15">
+          <tr>
+            <td width="100%" valign="center">
+              <p>
+                <a href="https://medium.com/@EdtechChina/gaokao-ai-and-the-new-era-of-education-in-china-7722e94212b1"><papertitle>Xueba Jun</papertitle></a>,
+                Shanghai, China
+                  <br>
+                  <em>Search and Rank Intern</em>, 09/2016 – 10/2016 <br>
+                  <!-- Located possible reasons of response bottleneck, read the whole source code related to searching of Xueba Jun app (one of the top three apps in its area), and accomplished a comprehensive code report. -->
+                  <br>
 
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="100%" valign="center">
+              <p>
+                <a href="https://www.unionpaysmart.com/index.php/en_index.html">
+                  <papertitle>UnionPay Smart</papertitle></a>,
+                Shanghai, China
+                <br>
+                <em>Quantitative Analyst Assistant Intern</em>, 03/2015 – 06/2015 <br>
+                <!-- Using Hadoop clusters to fetch luxury industry data from the transaction records of 2.7 billion credit cards (supported by China UnionPay), written with Python and Shell scripts. -->
+                <br>
 
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <!-- Internship End -->
 
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-									</ul>
+        <!-- Original Research section -->
+        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Research</heading>
+              <p>
+                I'm interested in computer vision, machine learning, statistics, optimization, image processing, virtual reality, and computational photography. Much of my research is about inferring the physical world (shape, depth, motion, paint, light, colors, etc) from images. I have also worked in astronomy and biology. Representative papers are <span class="highlight">highlighted</span>.
+              </p>
+            </td>
+          </tr>
+        </table>
 
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button special">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions vertical">
-										<li><a href="#" class="button special">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
+          <tr onmouseout="porlight_stop()" onmouseover="porlight_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='porlight_image'><img src='images/porlight_after.jpg'></div>
+                <img src='images/porlight_before.jpg'>
+              </div>
+              <script type="text/javascript">
+                function porlight_start() {
+                  document.getElementById('porlight_image').style.opacity = "1";
+                }
 
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
+                function porlight_stop() {
+                  document.getElementById('porlight_image').style.opacity = "0";
+                }
+                porlight_stop()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="https://arxiv.org/abs/1905.00824">
+                <papertitle>Single Image Portrait Relighting</papertitle>
+              </a>
+              <br>
+              <a href="http://kevinkingo.com/"">Tiancheng Sun</a>,
+              <strong>Jonathan T. Barron</strong>,
+              Yun-Ta Tsai,
+              <a href="https://cseweb.ucsd.edu/~zex014/">Zexiang Xu</a>,
+              Xueming Yu,
+              <a href="http://ict.usc.edu/profile/graham-fyffe/">Graham Fyffe</a>,
+              Christoph Rhemann,
+              Jay Busch,
+              <a href="https://www.pauldebevec.com/">Paul Debevec</a>,
+              <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>
+              <br>
+              <em>SIGGRAPH</em>, 2019
+              <br>
+			  <a href="https://www.youtube.com/watch?v=yxhGWds_g4I">video</a> /
+			  <a href="data/SunSIGGRAPH2019.bib">bibtex</a>
+              <br>
+              <p></p>
+              <p>Training a neural network on light stage scans and environment maps produces an effective relighting method.</p>
+            </td>
+          </tr>
 
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button special">Special</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button special icon fa-download">Icon</a></li>
-										<li><a href="#" class="button icon fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button special disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
+          <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='dpzlearn_image'><img src='images/dpzlearn_after.jpg'></div>
+                <img src='images/dpzlearn_before.jpg'>
+              </div>
+              <script type="text/javascript">
+                function dpzlearn_start() {
+                  document.getElementById('dpzlearn_image').style.opacity = "1";
+                }
 
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="field half first">
-											<label for="demo-name">Name</label>
-											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-										</div>
-										<div class="field half">
-											<label for="demo-email">Email</label>
-											<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-										</div>
-										<div class="field">
-											<label for="demo-category">Category</label>
-											<div class="select-wrapper">
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-										</div>
-										<div class="field half first">
-											<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-											<label for="demo-priority-low">Low</label>
-										</div>
-										<div class="field half">
-											<input type="radio" id="demo-priority-high" name="demo-priority">
-											<label for="demo-priority-high">High</label>
-										</div>
-										<div class="field half first">
-											<input type="checkbox" id="demo-copy" name="demo-copy">
-											<label for="demo-copy">Email me a copy</label>
-										</div>
-										<div class="field half">
-											<input type="checkbox" id="demo-human" name="demo-human" checked>
-											<label for="demo-human">Not a robot</label>
-										</div>
-										<div class="field">
-											<label for="demo-message">Message</label>
-											<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="special" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
+                function dpzlearn_stop() {
+                  document.getElementById('dpzlearn_image').style.opacity = "0";
+                }
+                dpzlearn_stop()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="https://arxiv.org/abs/1904.05822">
+                <papertitle>Learning Single Camera Depth Estimation using Dual-Pixels</papertitle>
+              </a>
+              <br>
+              <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>,
+              <a href="http://nealwadhwa.com">Neal Wadhwa</a>,
+              Sameer Ansari,
+              <strong>Jonathan T. Barron</strong>
+              <br>
+              arXiv:1904.05822
+              <br>
+              <p></p>
+              <p>Considering the optics of dual-pixel image sensors improves monocular depth estimation techniques.</p>
+            </td>
+          </tr>
+        </table> -->
 
-							</article>
+        <!-- Original Service section -->
+        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Service</heading>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tr>
+            <td width="25%"><img src="images/cvf.jpg"></td>
+            <td width="75%" valign="center">
+              <p>
+                <a href="http://cvpr2019.thecvf.com/area_chairs">
+                  Area Chair, CVPR 2019
+                </a>
+                <br>
+                <br>
+                <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">
+                  Area Chair, CVPR 2018
+                </a>
+                <br>
+                <br>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="25%"><img src="images/cs188.jpg" alt="cs188"></td>
+            <td width="75%" valign="center">
+              <p>
+                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">
+                  Graduate Student Instructor, CS188 Spring 2011
+                </a>
+                <br>
+                <br>
+                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">
+                  Graduate Student Instructor, CS188 Fall 2010
+                </a>
+                <br>
+                <br>
+                <a href="http://aima.cs.berkeley.edu/">
+                  Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition
+                </a>
+                <br>
+              </p>
+            </td>
+          </tr>
+        </table> -->
 
-					</div>
+        <table width="100%" align="center" border="0" cellpadding="15">
+          <tr>
+            <td width="100%" valign="center">
+              <p class="footer">
+                Design: <a href="https://jonbarron.info/" target="_blank" style="color: #777;">Jon Barron</a> <br>
+                Last updated:
+                <script>
+                  t = new Date(document.lastModified).toLocaleDateString()
+                  document.write(t);
+                </script>
+              </p>
+            </td>
+          </tr>
+        </table>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Limin Yang. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. Image: <a href="https://unsplash.com/" target="_blank">Unsplash</a>.</p>
-						<p class="copyright">
-							Last updated:
-							<script>
-								t = new Date(document.lastModified).toLocaleDateString()
-								document.write(t);
-							</script>
-						</p>
-					</footer>
+        </td>
+    </tr>
+  </table>
+</body>
 
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
