@@ -115,11 +115,11 @@
           <tr>
             <td width="67%" valign="middle">
               <p align="center">
-                <name>Limin Yang &nbsp; 杨利民</name>
+                <name>Limin Yang &nbsp; 杨利民 </name>
               </p>
               <p>I am a Ph.D. student of Computer Science at <a href="https://illinois.edu">University of Illinois at Urbana-Champaign (UIUC)</a> since 08/2019.
                  My research interests lie in the field of <em>security, measurement, and human factors. </em>
-                 My advisor is Dr. <a href="https://people.cs.vt.edu/gangwang/">Gang Wang</a>.
+                 My advisor is Dr. <a href="https://gangw.web.illinois.edu/">Gang Wang</a>.
               </p>
 
               <p align=center>Contact: liminy2@illinois.edu</p>
