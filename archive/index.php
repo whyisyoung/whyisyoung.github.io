@@ -516,7 +516,6 @@
                   document.write(t);
                 </script> -->
                 <?php
-                  // echo filemtime("index.php");
                   echo "".date("m/d/Y", filemtime("index.php"));
                 ?>
               </p>
