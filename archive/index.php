@@ -136,7 +136,7 @@
             </td>
             <td width="33%">
               <img src="images/liminyang.jpg" height="280px">
-              <p class="footer">photo credit: <a href="https://www.haileyliu.us/" target="_blank"> Hailey Liu</a>  </p>
+              <p class="footer">photo credit: <a href="https://www.haileyliu.photos/" target="_blank"> Hailey Liu</a>  </p>
             </td>
           </tr>
         </table>
@@ -186,6 +186,8 @@
                 <br>
                 <strong>IMC</strong>, 2019.
                 <br>
+                <a href="data/IMC19_VirusTotal.pdf">PDF</a> /
+                <a href="https://github.com/whyisyoung/virustotal">Data</a>
               </p>
             </td>
           </tr>
@@ -509,10 +511,14 @@
               <p class="footer">
                 Design: <a href="https://jonbarron.info/" target="_blank" style="color: #777;">Jon Barron</a> <br>
                 Last updated:
-                <script>
+                <!-- <script>
                   t = new Date(document.lastModified).toLocaleDateString()
                   document.write(t);
-                </script>
+                </script> -->
+                <?php
+                  // echo filemtime("index.php");
+                  echo "".date("m/d/Y", filemtime("index.php"));
+                ?>
               </p>
             </td>
           </tr>
