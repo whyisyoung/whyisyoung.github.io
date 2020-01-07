@@ -115,18 +115,18 @@
           <tr>
             <td width="67%" valign="middle">
               <p align="center">
-                <name>Limin Yang &nbsp; 杨利民</name>
+                <name>Limin Yang &nbsp; 杨利民 </name>
               </p>
               <p>I am a Ph.D. student of Computer Science at <a href="https://illinois.edu">University of Illinois at Urbana-Champaign (UIUC)</a> since 08/2019.
-                 My research interests lie in the field of <em>security, measurement, and human factors. </em>
-                 My advisor is Dr. <a href="https://people.cs.vt.edu/gangwang/">Gang Wang</a>.
+                 My research interests lie in the field of <em>security, measurement, and explainable AI. </em>
+                 My advisor is Dr. <a href="https://gangw.web.illinois.edu/">Gang Wang</a>.
               </p>
 
               <p align=center>Contact: liminy2@illinois.edu</p>
               <p align=center>Office: Thomas M. Siebel Center, 201 N Goodwin Ave, Urbana, IL 61801 </p>
               <p align=center>
                 <!-- <a href="mailto:liminyang@vt.edu">Email</a> &nbsp/&nbsp -->
-                <a href="data/Resume_LiminYang.pdf">Resume</a> &nbsp;/&nbsp;
+                <!-- <a href="data/Resume_LiminYang.pdf">Resume</a> &nbsp;/&nbsp; -->
                 <a href="data/CV_LiminYang.pdf">CV</a> &nbsp;/&nbsp;
                 <a href="https://github.com/whyisyoung"> GitHub </a> &nbsp;/&nbsp;
                 <!-- <a href="data/JonBarron-bio.txt">Biography</a> &nbsp/&nbsp -->
@@ -136,14 +136,14 @@
             </td>
             <td width="33%">
               <img src="images/liminyang.jpg" height="280px">
-              <p class="footer">photo credit: <a href="https://www.haileyliu.us/" target="_blank"> Hailey Liu</a>  </p>
+              <p class="footer">photo credit: <a href="https://www.haileyliu.photos/" target="_blank"> Hailey Liu</a>  </p>
             </td>
           </tr>
         </table>
         <!-- Intro End -->
 
         <!-- News Begin -->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="12">
+        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="12">
           <tr>
             <td>
               <heading>News</heading>
@@ -162,7 +162,7 @@
               </p>
             </td>
           </tr>
-        </table>
+        </table> -->
         <!-- News End -->
 
         <!-- Publications Begin -->
@@ -186,6 +186,8 @@
                 <br>
                 <strong>IMC</strong>, 2019.
                 <br>
+                <a href="data/IMC19_VirusTotal.pdf">PDF</a> /
+                <a href="https://github.com/whyisyoung/virustotal">Data</a>
               </p>
             </td>
           </tr>
@@ -509,10 +511,14 @@
               <p class="footer">
                 Design: <a href="https://jonbarron.info/" target="_blank" style="color: #777;">Jon Barron</a> <br>
                 Last updated:
-                <script>
+                <!-- <script>
                   t = new Date(document.lastModified).toLocaleDateString()
                   document.write(t);
-                </script>
+                </script> -->
+                <?php
+                  // echo filemtime("index.php");
+                  echo "".date("m/d/Y", filemtime("index.php"));
+                ?>
               </p>
             </td>
           </tr>
