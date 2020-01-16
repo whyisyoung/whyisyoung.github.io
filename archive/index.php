@@ -118,11 +118,7 @@
                 <name>Limin Yang &nbsp; 杨利民 </name>
               </p>
               <p>I am a Ph.D. student of Computer Science at <a href="https://illinois.edu">University of Illinois at Urbana-Champaign (UIUC)</a> since 08/2019.
-<<<<<<< HEAD:archive/index.php
                  My research interests lie in the field of <em>security, measurement, and explainable AI. </em>
-=======
-                 My research interests lie in the field of <em>security, measurement, and human factors. </em>
->>>>>>> fd83f7dbf2e5bcc7ed28effcce0e55aec14082a4:archive/index.php
                  My advisor is Dr. <a href="https://gangw.web.illinois.edu/">Gang Wang</a>.
               </p>
 
@@ -168,6 +164,35 @@
           </tr>
         </table> -->
         <!-- News End -->
+
+        <!-- Preprints Begin -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="12">
+          <tr>
+            <td>
+              <heading>Preprints</heading>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellpadding="12">
+          <tr>
+            <td width="100%" valign="center">
+              <p>
+                <papertitle>Security Vetting Process of Smart-home Assistant Applications:
+A First Look and Case Studies</papertitle>
+                <br>
+                Hang Hu,
+                <strong>Limin Yang</strong>,
+                Shihan Lin,
+                Gang Wang
+                <br>
+                <strong>arXiv</strong>, 2020.
+                <br>
+                <a href="https://arxiv.org/pdf/2001.04520.pdf">PDF</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <!-- Preprints End -->
 
         <!-- Publications Begin -->
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="12">
@@ -520,10 +545,7 @@
                   document.write(t);
                 </script> -->
                 <?php
-<<<<<<< HEAD:archive/index.php
                   // echo filemtime("index.php");
-=======
->>>>>>> fd83f7dbf2e5bcc7ed28effcce0e55aec14082a4:archive/index.php
                   echo "".date("m/d/Y", filemtime("index.php"));
                 ?>
               </p>
