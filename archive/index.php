@@ -2,7 +2,7 @@
  * @Author: Jon Barron
  * @Date: 2019-05-11 22:15:22
  * @LastEditors: whyisyoung
- * @LastEditTime: 2019-07-29 15:22:36
+ * @LastEditTime: 2020-03-02 22:03:53
  -->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
@@ -18,7 +18,8 @@
     gtag('config', 'UA-45384067-2');
   </script>
 
-  <meta name=viewport content="width=800">
+  <!-- <meta name=viewport content="width=800"> -->
+  <meta name=viewport content="width=device-width, initial-scale=1">
   <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
   <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -42,12 +43,12 @@
     p,
     a {
       font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 14px
+      font-size: 16px
     }
 
     strong {
       font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 14px;
+      font-size: 16px;
     }
 
     heading {
@@ -58,7 +59,7 @@
 
     papertitle {
       font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 14px;
+      font-size: 16px;
       /* font-weight: 700 */
     }
 
@@ -69,7 +70,7 @@
 
     .footer {
       font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 13px;
+      font-size: 14px;
       opacity: 0.75;
       color: #777;
     }
@@ -123,14 +124,14 @@
               </p>
 
               <p align=center>Contact: liminy2@illinois.edu</p>
-              <p align=center>Office: Thomas M. Siebel Center, 201 N Goodwin Ave, Urbana, IL 61801 </p>
+              <p align=center>Office: Room 4111, Thomas M. Siebel Center, Urbana, IL 61801 </p>
               <p align=center>
                 <!-- <a href="mailto:liminyang@vt.edu">Email</a> &nbsp/&nbsp -->
                 <!-- <a href="data/Resume_LiminYang.pdf">Resume</a> &nbsp;/&nbsp; -->
-                <a href="data/CV_LiminYang.pdf">CV</a> &nbsp;/&nbsp;
-                <a href="https://github.com/whyisyoung"> GitHub </a> &nbsp;/&nbsp;
+                <a href="data/CV_LiminYang.pdf">CV</a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                <a href="https://github.com/whyisyoung"> GitHub </a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
                 <!-- <a href="data/JonBarron-bio.txt">Biography</a> &nbsp/&nbsp -->
-                <a href="https://scholar.google.com/citations?hl=en&user=FCNYLcUAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?hl=en&user=FCNYLcUAAAAJ">Google Scholar</a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
                 <a href="https://www.linkedin.com/in/liminyang/"> LinkedIn </a>
               </p>
             </td>
@@ -165,34 +166,7 @@
         </table> -->
         <!-- News End -->
 
-        <!-- Preprints Begin -->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="12">
-          <tr>
-            <td>
-              <heading>Preprints</heading>
-            </td>
-          </tr>
-        </table>
-        <table width="100%" align="center" border="0" cellpadding="12">
-          <tr>
-            <td width="100%" valign="center">
-              <p>
-                <papertitle>Security Vetting Process of Smart-home Assistant Applications:
-A First Look and Case Studies</papertitle>
-                <br>
-                Hang Hu,
-                <strong>Limin Yang</strong>,
-                Shihan Lin,
-                Gang Wang
-                <br>
-                <strong>arXiv</strong>, 2020.
-                <br>
-                <a href="https://arxiv.org/pdf/2001.04520.pdf">PDF</a>
-              </p>
-            </td>
-          </tr>
-        </table>
-        <!-- Preprints End -->
+
 
         <!-- Publications Begin -->
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="12">
@@ -203,6 +177,23 @@ A First Look and Case Studies</papertitle>
           </tr>
         </table>
         <table width="100%" align="center" border="0" cellpadding="12">
+          <tr>
+            <td width="100%" valign="center">
+              <p>
+                <papertitle>Measuring and Modeling the Label Dynamics of Online Anti-Malware Engines</papertitle>
+                <br>
+                Shuofei Zhu,
+                Jianjun Shi,
+                <strong>Limin Yang</strong>,
+                Boqin Qin, Ziyi Zhang, Linhai Song, Gang Wang
+                <br>
+                <strong>USENIX Security</strong>, 2020.
+                <br>
+                <!-- <a href="data/USENIX20_VirusTotal.pdf">PDF</a> / -->
+                <a href="https://sfzhu93.github.io/projects/vt/index.html">Data</a>
+              </p>
+            </td>
+          </tr>
           <tr>
             <td width="100%" valign="center">
               <p>
@@ -225,17 +216,12 @@ A First Look and Case Studies</papertitle>
               <p>
                 <papertitle>Understanding the Reproducibility of Crowd-reported Security Vulnerabilities</papertitle>
                 <br>
-                <!-- <a href="https://mudongliang.github.io/about/"">Dongliang Mu</a>, -->
                 Dongliang Mu,
-                <!-- <a href="https://www.linkedin.com/in/aledancuevas/">Alejandro Cuevas</a>, -->
                 Alejandro Cuevas,
                 <strong>Limin Yang</strong>,
-                <!-- <a href="https://people.cs.vt.edu/hanghu/"">Hang Hu</a>, -->
                 Hang Hu,
-                <!-- <a href="http://xinyuxing.org/">Xinyu Xing</a>, -->
                 Xinyu Xing,
                 Bing Mao,
-                <!-- <a href="https://people.cs.vt.edu/gangwang/">Gang Wang</a> -->
                 Gang Wang
                 <br>
                 <strong>USENIX Security</strong>, 2018.
@@ -280,6 +266,34 @@ A First Look and Case Studies</papertitle>
         </table>
         <!-- Publications End -->
 
+        <!-- Preprints Begin -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="12">
+          <tr>
+            <td>
+              <heading>Preprints</heading>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellpadding="12">
+          <tr>
+            <td width="100%" valign="center">
+              <p>
+                <papertitle>Security Vetting Process of Smart-home Assistant Applications: A First Look and Case Studies</papertitle>
+                <br>
+                Hang Hu,
+                <strong>Limin Yang</strong>,
+                Shihan Lin,
+                Gang Wang
+                <br>
+                <strong>arXiv</strong>, 2020.
+                <br>
+                <a href="https://arxiv.org/pdf/2001.04520.pdf">PDF</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <!-- Preprints End -->
+
         <!-- Internship Begin -->
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="12">
           <tr>
@@ -303,7 +317,7 @@ A First Look and Case Studies</papertitle>
           <tr>
             <td width="100%" valign="center">
               <p>
-                <a href="https://medium.com/@EdtechChina/gaokao-ai-and-the-new-era-of-education-in-china-7722e94212b1"><papertitle>Xueba Jun</papertitle></a>,
+                <a href="https://www.xueba100.com/"><papertitle>Xueba Jun</papertitle></a>,
                 Shanghai, China
                   <br>
                   <em>Search and Rank Intern</em>, 09/2016 – 10/2016 <br>
@@ -393,152 +407,11 @@ A First Look and Case Studies</papertitle>
         </table>
         <!-- Teaching End -->
 
-        <!-- Original Research section -->
-        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td width="100%" valign="middle">
-              <heading>Research</heading>
-              <p>
-                I'm interested in computer vision, machine learning, statistics, optimization, image processing, virtual reality, and computational photography. Much of my research is about inferring the physical world (shape, depth, motion, paint, light, colors, etc) from images. I have also worked in astronomy and biology. Representative papers are <span class="highlight">highlighted</span>.
-              </p>
-            </td>
-          </tr>
-        </table>
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-
-          <tr onmouseout="porlight_stop()" onmouseover="porlight_start()">
-            <td width="25%">
-              <div class="one">
-                <div class="two" id='porlight_image'><img src='images/porlight_after.jpg'></div>
-                <img src='images/porlight_before.jpg'>
-              </div>
-              <script type="text/javascript">
-                function porlight_start() {
-                  document.getElementById('porlight_image').style.opacity = "1";
-                }
-
-                function porlight_stop() {
-                  document.getElementById('porlight_image').style.opacity = "0";
-                }
-                porlight_stop()
-              </script>
-            </td>
-            <td valign="middle" width="75%">
-              <a href="https://arxiv.org/abs/1905.00824">
-                <papertitle>Single Image Portrait Relighting</papertitle>
-              </a>
-              <br>
-              <a href="http://kevinkingo.com/"">Tiancheng Sun</a>,
-              <strong>Jonathan T. Barron</strong>,
-              Yun-Ta Tsai,
-              <a href="https://cseweb.ucsd.edu/~zex014/">Zexiang Xu</a>,
-              Xueming Yu,
-              <a href="http://ict.usc.edu/profile/graham-fyffe/">Graham Fyffe</a>,
-              Christoph Rhemann,
-              Jay Busch,
-              <a href="https://www.pauldebevec.com/">Paul Debevec</a>,
-              <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>
-              <br>
-              <em>SIGGRAPH</em>, 2019
-              <br>
-			  <a href="https://www.youtube.com/watch?v=yxhGWds_g4I">video</a> /
-			  <a href="data/SunSIGGRAPH2019.bib">bibtex</a>
-              <br>
-              <p></p>
-              <p>Training a neural network on light stage scans and environment maps produces an effective relighting method.</p>
-            </td>
-          </tr>
-
-          <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
-            <td width="25%">
-              <div class="one">
-                <div class="two" id='dpzlearn_image'><img src='images/dpzlearn_after.jpg'></div>
-                <img src='images/dpzlearn_before.jpg'>
-              </div>
-              <script type="text/javascript">
-                function dpzlearn_start() {
-                  document.getElementById('dpzlearn_image').style.opacity = "1";
-                }
-
-                function dpzlearn_stop() {
-                  document.getElementById('dpzlearn_image').style.opacity = "0";
-                }
-                dpzlearn_stop()
-              </script>
-            </td>
-            <td valign="middle" width="75%">
-              <a href="https://arxiv.org/abs/1904.05822">
-                <papertitle>Learning Single Camera Depth Estimation using Dual-Pixels</papertitle>
-              </a>
-              <br>
-              <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>,
-              <a href="http://nealwadhwa.com">Neal Wadhwa</a>,
-              Sameer Ansari,
-              <strong>Jonathan T. Barron</strong>
-              <br>
-              arXiv:1904.05822
-              <br>
-              <p></p>
-              <p>Considering the optics of dual-pixel image sensors improves monocular depth estimation techniques.</p>
-            </td>
-          </tr>
-        </table> -->
-
-        <!-- Original Service section -->
-        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td>
-              <heading>Service</heading>
-            </td>
-          </tr>
-        </table>
-        <table width="100%" align="center" border="0" cellpadding="20">
-          <tr>
-            <td width="25%"><img src="images/cvf.jpg"></td>
-            <td width="75%" valign="center">
-              <p>
-                <a href="http://cvpr2019.thecvf.com/area_chairs">
-                  Area Chair, CVPR 2019
-                </a>
-                <br>
-                <br>
-                <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">
-                  Area Chair, CVPR 2018
-                </a>
-                <br>
-                <br>
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td width="25%"><img src="images/cs188.jpg" alt="cs188"></td>
-            <td width="75%" valign="center">
-              <p>
-                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">
-                  Graduate Student Instructor, CS188 Spring 2011
-                </a>
-                <br>
-                <br>
-                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">
-                  Graduate Student Instructor, CS188 Fall 2010
-                </a>
-                <br>
-                <br>
-                <a href="http://aima.cs.berkeley.edu/">
-                  Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition
-                </a>
-                <br>
-              </p>
-            </td>
-          </tr>
-        </table> -->
-
         <table width="100%" align="center" border="0" cellpadding="12">
           <tr>
             <td width="100%" valign="center">
               <p class="footer">
-                Design: <a href="https://jonbarron.info/" target="_blank" style="color: #777;">Jon Barron</a> <br>
+                Design: <a href="https://jonbarron.info/" target="_blank" style="color: #777; font-size: 14px;">Jon Barron</a> <br>
                 Last updated:
                 <!-- <script>
                   t = new Date(document.lastModified).toLocaleDateString()
