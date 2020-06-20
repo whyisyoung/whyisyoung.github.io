@@ -19,7 +19,7 @@
   </script>
 
   <!-- <meta name=viewport content="width=800"> -->
-  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name=viewport content="width=device-width">
   <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
   <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -137,14 +137,14 @@
             </td>
             <td width="33%">
               <img src="images/liminyang.jpg" height="280px">
-              <p class="footer">photo credit: <a href="https://www.haileyliu.photos/" target="_blank"> Hailey Liu</a>  </p>
+              <p class="footer" style="font-size: 16px;">photo credit: <a href="https://www.haileyliu.photos/" target="_blank"> Hailey Liu</a>  </p>
             </td>
           </tr>
         </table>
         <!-- Intro End -->
 
         <!-- News Begin -->
-        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="12">
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="12">
           <tr>
             <td>
               <heading>News</heading>
@@ -156,17 +156,16 @@
             <td width="100%" valign="center">
               <p>
                 <ul>
-                  <li><strong>07/2019</strong>: &nbsp; Our VirusTotal reliability paper got accepted to IMC 2019.</li>
-                  <li><strong>06/2019</strong>: &nbsp; I'm moving to the CS Department of <a href="https://illinois.edu">University of Illinois at Urbana-Champaign</a> as a PhD student this fall. </li>
+                  <li><strong>06/18/2020</strong>: &nbsp; Submitted my first paper to USENIX Security 2021! Thanks a lot to my advisor and collaborators!</li>
+                  <!-- <li><strong>07/2019</strong>: &nbsp; Our VirusTotal reliability paper got accepted to IMC 2019.</li> -->
+                  <!-- <li><strong>06/2019</strong>: &nbsp; I'm moving to the CS Department of <a href="https://illinois.edu">University of Illinois at Urbana-Champaign</a> as a PhD student this fall. </li> -->
                 </ul>
                 <br>
               </p>
             </td>
           </tr>
-        </table> -->
+        </table>
         <!-- News End -->
-
-
 
         <!-- Publications Begin -->
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="12">
@@ -189,8 +188,24 @@
                 <br>
                 <strong>USENIX Security</strong>, 2020.
                 <br>
-                <!-- <a href="data/USENIX20_VirusTotal.pdf">PDF</a> / -->
+                <a href="data/USENIX20_VirusTotal.pdf">PDF</a> /
                 <a href="https://sfzhu93.github.io/projects/vt/index.html">Data</a>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="100%" valign="center">
+              <p>
+                <papertitle>A Case Study of the Security Vetting Process of Smart-home Assistant Applications</papertitle>
+                <br>
+                Hang Hu,
+                <strong>Limin Yang</strong>,
+                Shihan Lin,
+                Gang Wang
+                <br>
+                <em>SafeThings</em>, 2020.
+                <br>
+                <a href="data/SafeThings20_Alexa.pdf">PDF</a>
               </p>
             </td>
           </tr>
@@ -237,7 +252,8 @@
                 <papertitle>VulDigger: A Just-in-Time and Cost-Aware Tool for Digging Vulnerability-Contributing Changes</papertitle>
                 <br>
                 <strong>Limin Yang</strong>,
-                Xiangxue Li, Yu Yu
+                <!-- Xiangxue Li, Yu Yu -->
+                et al.
                   <br>
                   <em>GLOBECOM</em>, 2017.
                   <br>
@@ -267,31 +283,14 @@
         <!-- Publications End -->
 
         <!-- Preprints Begin -->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="12">
+        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="12">
           <tr>
             <td>
               <heading>Preprints</heading>
             </td>
           </tr>
-        </table>
-        <table width="100%" align="center" border="0" cellpadding="12">
-          <tr>
-            <td width="100%" valign="center">
-              <p>
-                <papertitle>Security Vetting Process of Smart-home Assistant Applications: A First Look and Case Studies</papertitle>
-                <br>
-                Hang Hu,
-                <strong>Limin Yang</strong>,
-                Shihan Lin,
-                Gang Wang
-                <br>
-                <strong>arXiv</strong>, 2020.
-                <br>
-                <a href="https://arxiv.org/pdf/2001.04520.pdf">PDF</a>
-              </p>
-            </td>
-          </tr>
-        </table>
+        </table> -->
+
         <!-- Preprints End -->
 
         <!-- Internship Begin -->
