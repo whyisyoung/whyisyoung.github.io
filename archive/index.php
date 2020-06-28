@@ -126,11 +126,9 @@
               <p align=center>Contact: liminy2@illinois.edu</p>
               <p align=center>Office: Room 4111, Thomas M. Siebel Center, Urbana, IL 61801 </p>
               <p align=center>
-                <!-- <a href="mailto:liminyang@vt.edu">Email</a> &nbsp/&nbsp -->
                 <!-- <a href="data/Resume_LiminYang.pdf">Resume</a> &nbsp;/&nbsp; -->
                 <a href="data/CV_LiminYang.pdf">CV</a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
                 <a href="https://github.com/whyisyoung"> GitHub </a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                <!-- <a href="data/JonBarron-bio.txt">Biography</a> &nbsp/&nbsp -->
                 <a href="https://scholar.google.com/citations?hl=en&user=FCNYLcUAAAAJ">Google Scholar</a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
                 <a href="https://www.linkedin.com/in/liminyang/"> LinkedIn </a>
               </p>
@@ -158,7 +156,6 @@
                 <ul>
                   <li><strong>06/18/2020</strong>: &nbsp; Submitted my first paper to USENIX Security 2021! Thanks a lot to my advisor and collaborators!</li>
                   <!-- <li><strong>07/2019</strong>: &nbsp; Our VirusTotal reliability paper got accepted to IMC 2019.</li> -->
-                  <!-- <li><strong>06/2019</strong>: &nbsp; I'm moving to the CS Department of <a href="https://illinois.edu">University of Illinois at Urbana-Champaign</a> as a PhD student this fall. </li> -->
                 </ul>
                 <br>
               </p>
@@ -266,10 +263,8 @@
               <p>
                 <papertitle>Characterizing User Behaviors in Location-based Find-and-Flirt Services: Anonymity and Demographics</papertitle>
                 <br>
-                <!-- <a href="http://www.cs.ecnu.edu.cn/xueminhui/">Minhui Xue</a>, -->
                 Minhui Xue,
                 <strong>Limin Yang</strong>,
-                <!-- <a href="https://www.nyu.edu/projects/keithwross/"> Keith W. Ross</a>, -->
                 Keith W. Ross,
                 Haifeng Qian
                 <br>
@@ -309,7 +304,6 @@
                 Pennsylvania, US
                 <br>
                 <em>Research Intern</em>, 09/2017 – 02/2018 <br>
-                <!-- Located possible reasons of response bottleneck, read the whole source code related to searching of Xueba Jun app (one of the top three apps in its area), and accomplished a comprehensive code report. -->
               </p>
             </td>
           </tr>
@@ -320,7 +314,6 @@
                 Shanghai, China
                   <br>
                   <em>Search and Rank Intern</em>, 09/2016 – 10/2016 <br>
-                  <!-- Located possible reasons of response bottleneck, read the whole source code related to searching of Xueba Jun app (one of the top three apps in its area), and accomplished a comprehensive code report. -->
               </p>
             </td>
           </tr>
@@ -331,19 +324,6 @@
                 Beijing, China
                 <br>
                 <em>Exploit Intern</em>, 07/2015 – 08/2015 <br>
-                <!-- Located possible reasons of response bottleneck, read the whole source code related to searching of Xueba Jun app (one of the top three apps in its area), and accomplished a comprehensive code report. -->
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td width="100%" valign="center">
-              <p>
-                <a href="https://www.unionpaysmart.com/index.php/en_index.html">
-                  <papertitle>UnionPay Smart</papertitle></a>,
-                Shanghai, China
-                <br>
-                <em>Quantitative Analyst Assistant Intern</em>, 03/2015 – 06/2015 <br>
-                <!-- Using Hadoop clusters to fetch luxury industry data from the transaction records of 2.7 billion credit cards (supported by China UnionPay), written with Python and Shell scripts. -->
               </p>
             </td>
           </tr>
@@ -417,7 +397,6 @@
                   document.write(t);
                 </script> -->
                 <?php
-                  // echo filemtime("index.php");
                   echo "".date("m/d/Y", filemtime("index.php"));
                 ?>
               </p>
