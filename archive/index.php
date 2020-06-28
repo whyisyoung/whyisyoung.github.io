@@ -130,8 +130,8 @@
               <p align="left">
                 <name>Limin Yang &nbsp; (杨利民) </name>
               </p>
-              <p>I am a Ph.D. student of Computer Science at <a href="https://illinois.edu">University of Illinois at Urbana-Champaign (UIUC)</a> since 08/2019.
-                 My research interests lie in the field of <em class="highlight">security, measurement, and explainable AI. </em>
+              <p>I am a Ph.D. student of Computer Science at <a href="https://illinois.edu">UIUC</a> since 08/2019. <br>
+                 I focus on <em class="highlight">security, measurement, and explainable AI. </em> <br>
                  My advisor is Dr. <a href="https://gangw.web.illinois.edu/">Gang Wang</a>.
               </p>
 
@@ -167,7 +167,8 @@
               06/18/2020
             </td>
             <td valign="center">
-                  Submitted my first paper to USENIX Security 2021! Thanks a lot to my advisor and collaborators!
+                  Submitted my first paper to USENIX Security 2021! <br>
+                  Thanks a lot to my advisor and collaborators!
                   <!-- <li><strong>07/2019</strong>: &nbsp; Our VirusTotal reliability paper got accepted to IMC 2019.</li> -->
             </td>
           </tr>
@@ -314,10 +315,7 @@
               <a href="https://www.ist.psu.edu/"><papertitle>Penn State</papertitle></a>
             </td>
             <td valign="center">
-                <em>Research Intern</em>, 09/2017 – 02/2018
-                <br>
-                Pennsylvania, US
-                <br>
+                <em>Research Intern</em>, Pennsylvania, US, 09/2017 – 02/2018
             </td>
           </tr>
           <tr>
@@ -325,10 +323,7 @@
                 <a href="https://www.xueba100.com/"><papertitle>Xueba Jun</papertitle></a>
             </td>
             <td valign="center">
-              <em>Search and Rank Intern</em>, 09/2016 – 10/2016
-              <br>
-              Shanghai, China
-              <br>
+              <em>Search and Rank Intern</em>, Shanghai, China, 09/2016 – 10/2016
             </td>
           </tr>
           <tr>
@@ -337,10 +332,7 @@
                   papertitle></a>
             </td>
             <td valign="center">
-              <em>Exploit Intern</em>, 07/2015 – 08/2015
-              <br>
-              Beijing, China
-              <br>
+              <em>Exploit Intern</em>, Beijing, China, 07/2015 – 08/2015
             </td>
           </tr>
         </table>
