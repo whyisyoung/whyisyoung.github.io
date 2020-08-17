@@ -139,7 +139,7 @@
               <p align=left>Office: Room 4111, Thomas M. Siebel Center, Urbana, IL 61801 </p>
               <p align=left>
                 <!-- <a href="data/Resume_LiminYang.pdf">Resume</a> &nbsp;/&nbsp; -->
-                <a href="data/CV_LiminYang.pdf">CV</a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                <a href="data/CV_LiminYang_UIUC.pdf">CV</a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
                 <a href="https://github.com/whyisyoung"> GitHub </a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
                 <a href="https://scholar.google.com/citations?hl=en&user=FCNYLcUAAAAJ">Google Scholar</a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
                 <a href="https://www.linkedin.com/in/liminyang/"> LinkedIn </a>
@@ -162,6 +162,13 @@
             <col span="1" style="width: 23%;">
             <col span="1" style="width: 77%;">
           </colgroup>
+          <tr>
+            <td valign="center">
+              08/01/2020
+            </td>
+            <td valign="center" style="color:#E9623F">
+                  <strong>I'm actively looking for a security and deep learning internship for 2021 summer!</strong>
+            </td>
           <tr>
             <td valign="center">
               06/18/2020
@@ -197,7 +204,7 @@
                 <br>
                 Shuofei Zhu,
                 Jianjun Shi,
-                <strong>Limin Yang</strong>,
+                <strong><u>Limin Yang</u></strong>,
                 Boqin Qin, Ziyi Zhang, Linhai Song, Gang Wang
                 <br>
                 <a href="data/USENIX20_VirusTotal.pdf">PDF</a> /
@@ -212,7 +219,7 @@
                 <papertitle>A Case Study of the Security Vetting Process of Smart-home Assistant Applications</papertitle>
                 <br>
                 Hang Hu,
-                <strong>Limin Yang</strong>,
+                <strong><u>Limin Yang</u></strong>,
                 Shihan Lin,
                 Gang Wang
                 <br>
@@ -227,7 +234,7 @@
                 <papertitle>Opening the Blackbox of VirusTotal: Analyzing Online Phishing Scan Engines</papertitle>
                 <br>
                 Peng Peng,
-                <strong>Limin Yang</strong>,
+                <strong><u>Limin Yang</u></strong>,
                 Linhai Song,
                 Gang Wang
                 <br>
@@ -244,7 +251,7 @@
                 <br>
                 Dongliang Mu,
                 Alejandro Cuevas,
-                <strong>Limin Yang</strong>,
+                <strong><u>Limin Yang</u></strong>,
                 Hang Hu,
                 Xinyu Xing,
                 Bing Mao,
@@ -261,7 +268,7 @@
             <td valign="center">
                 <papertitle>VulDigger: A Just-in-Time and Cost-Aware Tool for Digging Vulnerability-Contributing Changes</papertitle>
                 <br>
-                <strong>Limin Yang</strong>,
+                <strong><u>Limin Yang</u></strong>,
                 <!-- Xiangxue Li, Yu Yu -->
                 et al.
                 <br>
@@ -276,7 +283,7 @@
                 <papertitle>Characterizing User Behaviors in Location-based Find-and-Flirt Services: Anonymity and Demographics</papertitle>
                 <br>
                 Minhui Xue,
-                <strong>Limin Yang</strong>,
+                <strong><u>Limin Yang</u></strong>,
                 Keith W. Ross,
                 Haifeng Qian
                 <br>
