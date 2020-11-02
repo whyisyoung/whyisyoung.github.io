@@ -145,7 +145,8 @@
               </p>
               <p>I am a Ph.D. student of Computer Science at <a href="https://illinois.edu">UIUC</a> since 08/2019. <br>
                  I focus on <em class="highlight">machine learning security, measurement, and explainable AI. </em> <br>
-                 My advisor is Dr. <a href="https://gangw.web.illinois.edu/">Gang Wang</a>.
+                 My advisor is <a href="https://gangw.web.illinois.edu/">Prof. Gang Wang</a>. <br>
+                 I also work closely with <a href="http://xinyuxing.org">Prof. Xinyu Xing</a> and <a href="https://songlh.github.io">Prof. Linhai Song</a> from Penn State.
               </p>
 
               <p align=left>Contact: liminy2@illinois.edu</p>
